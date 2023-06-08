@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(163, 209, 77);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    line-height: 150%;
+}
+.header{
+    background-color: rgb(6, 25, 90);
+   align-items: center;
+   padding: 15px;
+      justify-content: space-between;
+   display: flex;
+   }
+.header h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+ .header .social a {
+    padding: 0 5px;
+    
+ }
+ 
+ .content{
+   padding:50px;
+ }
+ .content h1{
+    text-align: center;
+ }
+  
+     /* estilização do rodapé */
+     .footer {
+      background-color: rgb(6, 25, 90);
+      padding: 55px 20px;
+      text-align: center;
+      color: white;
+     }
+     ul, ul a{
+        list-style-type: none;
+     }
